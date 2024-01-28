@@ -1,0 +1,37 @@
+
+<html>
+  <head>
+    <title>grid</title>
+  <style>
+    .grid{
+      font-size:x-large;
+      height: 50px;margin:10px;
+      text-align: center;
+      color: white;
+      background-color:Grey;
+      padding-top: 20px;
+
+    }
+    .p{
+      margin-right: 10px;height: 150px;
+      font-size:x-large;
+      text-align: center;
+      padding-top: 100px;
+      color: white;}
+
+  </style>
+</head>
+    <body>
+      <div style="background-color: lightgrey; width: 500px;">
+      <div style="display: grid;grid-template-columns: 1fr;">
+      <div class="grid" style="background-color: darkblue;">Holy Grail Layout</div>
+    
+      <div style="display: grid;grid-template-columns: 1fr 2fr 1fr;margin-left: 10px; ">
+        <div class="p" style="background: linear-gradient(white,blue,white);">Nav </div>
+        <div class="p" style="background-color: brown;">Main Content</div>
+        <div class="p" style="background: linear-gradient(white,blue,white);">Sidebar</div>
+   </div>
+      <div class="grid" style="background: linear-gradient(blue,blue,blue);">Footer</div></div>
+    </body>
+  
+</html>
